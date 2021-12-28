@@ -23,10 +23,11 @@ console.log(language)
 let javascriptIsFun = true
 console.log(javascriptIsFun)
 
-console.log(typeof 56)*/
+console.log(typeof 56)
 
 //CODING CHALLENGE 1
-// BMI = mass / height ** 2 = mass / (height * height)
+// BMI = mass / height ** 2 = mass / (height * height)*/
+
 const markM = 78
 const johnM = 92
 const markH = 1.69
@@ -37,4 +38,8 @@ const johnBMI = johnM / (johnH ** 2)
 const markHigherBMI = markBMI > johnBMI
 
 console.log(markBMI, johnBMI, markHigherBMI)
+
+
+
+
 

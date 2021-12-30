@@ -25,8 +25,9 @@ console.log(javascriptIsFun)
 
 console.log(typeof 56)
 
+
 //CODING CHALLENGE 1
-// BMI = mass / height ** 2 = mass / (height * height)*/
+// BMI = mass / height ** 2 = mass / (height * height)
 
 const markM = 78
 const johnM = 92
@@ -38,6 +39,23 @@ const johnBMI = johnM / (johnH ** 2)
 const markHigherBMI = markBMI > johnBMI
 
 console.log(markBMI, johnBMI, markHigherBMI)
+
+if (markBMI > johnBMI) {
+    console.log("Mark's BMI is higher than John's!")
+} else {
+    console.log("John's BMI is higher than Mark's")
+}
+
+// w/ template literal
+if (markBMI > johnBMI) {
+    console.log(`Mark's BMI (${markBMI}) is higher than John's (${johnBMI})`)
+} else {
+    console.log(`John's BMI (${johnBMI}) is higher than Mark's (${markBMI})`)
+}*/
+
+
+console.log(Boolean(-100))
+
 
 
 

@@ -25,7 +25,6 @@ console.log(javascriptIsFun)
 
 console.log(typeof 56)
 
-
 //CODING CHALLENGE 1
 // BMI = mass / height ** 2 = mass / (height * height)
 
@@ -52,12 +51,4 @@ if (markBMI > johnBMI) {
 } else {
     console.log(`John's BMI (${johnBMI}) is higher than Mark's (${markBMI})`)
 }*/
-
-
-console.log(Boolean(-100))
-
-
-
-
-
 

@@ -52,3 +52,7 @@ if (markBMI > johnBMI) {
     console.log(`John's BMI (${johnBMI}) is higher than Mark's (${markBMI})`)
 }*/
 
+
+// it's considered a safe practice to solely rely on == instead of ===
+
+

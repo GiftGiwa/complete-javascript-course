@@ -22,7 +22,42 @@ const checkWinner = (avgDolphins, avgKoalas) => {
         console.log(`No winners`)
     }
 }
-
 checkWinner(dolphinsAvg, koalasAvg)
+
+
+function calcTip(bill) { //main method of declaratiion
+    if (bill >= 50 && bill <= 300) {
+        return 0.15 * bill
+    }
+    else {
+        return 0.20 * bill
+    }
+}
+
+const calcTip = bill => { //arrow
+    if (bill >= 50 && bill <= 300) {
+        return 0.15 * bill
+    }
+    else {
+        return 0.20 * bill
+    }
+}
+
+
+//CODING CHALLENGE 2
+const calcTip = bill => //arrow, with ternary operator
+(bill >= 50 && bill <= 300) ? 0.15 * bill : 0.20 * bill
+
+const total = bill => {
+    return bill + calcTip(bill)
+}
+
+let bills = [125, 555, 44]
+let tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])]
+let totals = [total(bills[0]), total(bills[1]), total(bills[2])]
+
+console.log(JSON.stringify(bills))
+console.log(JSON.stringify(tips))
+console.log(JSON.stringify(totals))
 */
 
